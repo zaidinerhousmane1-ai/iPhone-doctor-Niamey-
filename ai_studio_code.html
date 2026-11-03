@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Doctor Niamey | Réparation Express & Vente d'iPhone</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        apple: {
+                            blue: '#0071e3',
+                            hover: '#0077ed',
+                            dark: '#0a0a0c',
+                            card: '#16161a',
+                            border: '#27272e'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#0a0a0c] text-slate-100 font-sans antialiased selection:bg-blue-600 selection:text-white">
+
+    <!-- BARRE D'ANNONCE -->
+    <div class="bg-gradient-to-r from-blue-700 via-indigo-600 to-blue-700 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium">
+        ⚡ Réparation express en 30 minutes à Niamey • Devis gratuit sur WhatsApp !
+    </div>
+
+    <!-- NAVIGATION -->
+    <header class="sticky top-0 z-40 bg-[#0a0a0c]/80 backdrop-blur-md border-b border-apple-border">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-2">
+                <i class="fa-brands fa-apple text-2xl text-blue-500"></i>
+                <span class="font-extrabold text-lg tracking-tight text-white">iPhone Doctor <span class="text-blue-500">Niamey</span></span>
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+                <a href="#services" class="hover:text-blue-400 transition">Services</a>
+                <a href="#tarifs" class="hover:text-blue-400 transition">Modèles</a>
+                <a href="#avis" class="hover:text-blue-400 transition">Avis Clients</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            </nav>
+            <a href="https://wa.me/22782625065?text=Bonjour%20iPhone%20Doctor,%20j'ai%20besoin%20d'un%20devis" 
+               class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center space-x-2 transition shadow-lg shadow-blue-500/25">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span>Prendre RDV</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-16 pb-20 overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900/30 via-[#0a0a0c] to-[#0a0a0c] -z-10"></div>
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            
+            <div class="inline-flex items-center space-x-2 bg-blue-500/10 border border-blue-500/30 px-3.5 py-1.5 rounded-full text-blue-400 text-xs font-semibold uppercase tracking-wider mb-6">
+                <i class="fa-solid fa-certificate"></i>
+                <span>Spécialiste Apple Certifié à Niamey</span>
+            </div>
+
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+                Donnez une seconde vie à votre <span class="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">iPhone</span>.
+            </h1>
+
+            <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto mb-8 font-normal leading-relaxed">
+                Écran brisé, batterie faible ou carte mère bloquée ? Nous réparons votre iPhone avec des pièces d’origine au meilleur prix à Niamey. Vente d'iPhone neufs et reconditionnés garantis.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+                <a href="https://wa.me/22782625065?text=Bonjour,%20je%20souhaite%20r%C3%A9parer%20mon%20iPhone" 
+                   class="w-full sm:w-auto bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-3.5 rounded-xl shadow-lg shadow-blue-600/30 flex items-center justify-center space-x-2 transition">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>Diagnostiquer mon iPhone</span>
+                </a>
+                <a href="tel:+22782625065" 
+                   class="w-full sm:w-auto bg-apple-card hover:bg-slate-800 text-slate-200 border border-apple-border font-medium px-8 py-3.5 rounded-xl flex items-center justify-center space-x-2 transition">
+                    <i class="fa-solid fa-phone text-blue-400"></i>
+                    <span>Appeler le 82 62 50 65</span>
+                </a>
+            </div>
+
+            <!-- Preuve Sociale Rapide -->
+            <div class="flex flex-wrap justify-center items-center gap-6 text-sm text-slate-400">
+                <div class="flex items-center space-x-1.5 text-amber-400">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span class="text-white font-bold ml-1">4.8/5</span>
+                    <span class="text-slate-400">(Avis vérifiés Google)</span>
+                </div>
+                <div class="hidden sm:block text-slate-600">•</div>
+                <div>📍 Niamey 8001 (Zone G3PH+5F)</div>
+                <div class="hidden sm:block text-slate-600">•</div>
+                <div class="text-emerald-400"><i class="fa-solid fa-clock mr-1"></i> Assistance continue</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-16 bg-[#0e0e12] border-t border-b border-apple-border">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-xs font-bold text-blue-500 tracking-widest uppercase">Nos Prestations</h2>
+                <p class="text-3xl font-bold text-white mt-2">Ce que nous soignons pour vous</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="bg-apple-card border border-apple-border p-6 rounded-2xl hover:border-blue-500/50 transition">
+                    <div class="w-12 h-12 bg-blue-500/10 text-blue-400 rounded-xl flex items-center justify-center text-2xl mb-4">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Changement d'Écran</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Écrans fissurés ou tactiles inactifs sur tous les modèles (de l'iPhone X jusqu'à l'iPhone 15 Pro Max). Remplacement rapide en 30 minutes.
+                    </p>
+                    <span class="text-xs font-semibold text-blue-400">Dalle Originale & Oled • Garantie incluse</span>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-apple-card border border-apple-border p-6 rounded-2xl hover:border-blue-500/50 transition">
+                    <div class="w-12 h-12 bg-emerald-500/10 text-emerald-400 rounded-xl flex items-center justify-center text-2xl mb-4">
+                        <i class="fa-solid fa-battery-three-quarters"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Batterie & Charge</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Votre batterie se décharge trop vite ou votre connecteur de charge ne répond plus ? Retrouvez 100% de santé de batterie immédiatement.
+                    </p>
+                    <span class="text-xs font-semibold text-emerald-400">Cellules certifiées haute capacité</span>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-apple-card border border-apple-border p-6 rounded-2xl hover:border-blue-500/50 transition">
+                    <div class="w-12 h-12 bg-purple-500/10 text-purple-400 rounded-xl flex items-center justify-center text-2xl mb-4">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Carte Mère & Caméra</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Micro-soudure de précision, déblocage réseau/iCloud légitime, réparation Face ID, réhabilitation des téléphones tombés dans l'eau.
+                    </p>
+                    <span class="text-xs font-semibold text-purple-400">Diagnostics informatisés avancés</span>
+                </div>
+            </div>
+
+            <!-- Vente d'iPhone -->
+            <div class="mt-8 bg-gradient-to-r from-blue-900/40 to-slate-900 border border-blue-500/30 rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <span class="bg-blue-500 text-white text-xs uppercase px-2.5 py-1 rounded font-bold">Vente & Reprise</span>
+                    <h4 class="text-2xl font-bold text-white mt-2">Envie d'un nouvel iPhone ?</h4>
+                    <p class="text-slate-300 text-sm max-w-xl mt-1">
+                        Nous vendons des iPhone neufs scellés et reconditionnés propres 100% fonctionnels à des prix défiant toute concurrence à Niamey.
+                    </p>
+                </div>
+                <a href="https://wa.me/22782625065?text=Bonjour,%20quels%20sont%20les%20iPhones%20disponibles%20en%20stock%20actuellement%20?" 
+                   class="whitespace-nowrap bg-white text-black hover:bg-slate-200 font-bold px-6 py-3 rounded-xl transition">
+                    Voir le stock disponible
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEMOIGNAGES CLIENTS (AVIS RÉELS GOOGLE) -->
+    <section id="avis" class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-xl mx-auto mb-12">
+                <h2 class="text-xs font-bold text-blue-500 tracking-widest uppercase">Témoignages</h2>
+                <p class="text-3xl font-bold text-white mt-2">La satisfaction de nos clients à Niamey</p>
+                <div class="flex items-center justify-center gap-1 text-amber-400 mt-2 text-sm">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <span class="text-white font-bold ml-2">4.8 / 5 sur Google Maps</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Avis 1: Christelle Konaté -->
+                <div class="bg-apple-card border border-apple-border p-6 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-400 text-sm mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm italic mb-4">
+                            "Merci à iPhone Doctor d’avoir remis mon iPhone 15 pro cassé en un parfait état à un prix plus moins qu’en France. 😍🙏🏾"
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-4 border-t border-apple-border/60">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-pink-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm">
+                            CK
+                        </div>
+                        <div>
+                            <div class="text-white text-sm font-semibold">Christelle Konaté</div>
+                            <div class="text-slate-500 text-xs">Avis vérifié Google</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Avis 2: Abdoulaye Sani -->
+                <div class="bg-apple-card border border-apple-border p-6 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-400 text-sm mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm italic mb-4">
+                            "Super service c'est pas des bleus. Des professionnels qui connaissent leur travail sur le bout des doigts !"
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-4 border-t border-apple-border/60">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-blue-500 to-cyan-500 flex items-center justify-center text-white font-bold text-sm">
+                            AS
+                        </div>
+                        <div>
+                            <div class="text-white text-sm font-semibold">Abdoulaye Sani</div>
+                            <div class="text-slate-500 text-xs">Avis vérifié Google</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Avis 3: Nafiou S Teacher -->
+                <div class="bg-apple-card border border-apple-border p-6 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-400 text-sm mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm italic mb-4">
+                            "iPhone Doctor Niamey Niger : achetez et résolvez tous vos problèmes d'iPhone avec eux. Confiance à 100% !"
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-4 border-t border-apple-border/60">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-emerald-500 to-teal-600 flex items-center justify-center text-white font-bold text-sm">
+                            NT
+                        </div>
+                        <div>
+                            <div class="text-white text-sm font-semibold">Nafiou S Teacher</div>
+                            <div class="text-slate-500 text-xs">Avis vérifié Google</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT & LOCALISATION -->
+    <section id="contact" class="py-16 bg-[#0e0e12] border-t border-apple-border">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <h2 class="text-xs font-bold text-blue-500 tracking-widest uppercase">Nous Trouver</h2>
+                    <h3 class="text-3xl font-bold text-white mt-1 mb-6">Passez à l'atelier à Niamey</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-medium">Adresse</h4>
+                                <p class="text-slate-400 text-sm mt-0.5">Niamey 8001, Niger (Repère : G3PH+5F Niamey)</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fa-brands fa-whatsapp text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-medium">WhatsApp Direct</h4>
+                                <p class="text-slate-400 text-sm mt-0.5">+227 82 62 50 65</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-medium">Horaires d'ouverture</h4>
+                                <p class="text-slate-400 text-sm mt-0.5">Service ouvert 24h/24 & 7j/7 pour les urgences</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carte d'appel à l'action -->
+                <div class="bg-apple-card border border-apple-border p-8 rounded-2xl flex flex-col justify-center items-center text-center">
+                    <i class="fa-solid fa-screwdriver-wrench text-5xl text-blue-500 mb-4"></i>
+                    <h4 class="text-xl font-bold text-white mb-2">Un problème avec votre appareil ?</h4>
+                    <p class="text-slate-400 text-sm mb-6 max-w-sm">
+                        Envoyez-nous une photo du problème ou venez directement sans rendez-vous. Réparation en direct devant vous.
+                    </p>
+                    <a href="https://wa.me/22782625065?text=Bonjour,%20j'aimerais%20avoir%20des%20renseignements%20pour%20une%20r%C3%A9paration" 
+                       class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 px-6 rounded-xl flex items-center justify-center space-x-2 transition shadow-lg shadow-emerald-600/20">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <span>Discuter maintenant sur WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 bg-[#0a0a0c] border-t border-apple-border text-center text-xs text-slate-500">
+        <p>© 2026 iPhone Doctor Niamey. Tous droits réservés.</p>
+        <p class="mt-1">Apple et iPhone sont des marques déposées d'Apple Inc. Nous sommes un atelier indépendant certifié.</p>
+    </footer>
+
+    <!-- BOUTON FLOTTANT WHATSAPP (Crucial pour la conversion mobile) -->
+    <a href="https://wa.me/22782625065?text=Bonjour%20iPhone%20Doctor" 
+       class="fixed bottom-5 right-5 z-50 bg-emerald-500 hover:bg-emerald-600 text-white p-4 rounded-full shadow-2xl flex items-center justify-center text-2xl transition hover:scale-110">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
